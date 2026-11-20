@@ -1,0 +1,29 @@
+/**
+ * Admin styles for the DLS Starter Plugin settings screen.
+ */
+
+.dls-starter-admin .form-table th {
+	width: 200px;
+}
+
+.dls-starter-admin .description {
+	max-width: 42em;
+}
+
+.dls-starter-ajax-result {
+	display: inline-block;
+	margin-left: 8px;
+	font-weight: 600;
+}
+
+.dls-starter-ajax-result:empty {
+	display: none;
+}
+
+.dls-starter-ajax-result.is-success {
+	color: #1a7f37;
+}
+
+.dls-starter-ajax-result.is-error {
+	color: #b32d2e;
+}

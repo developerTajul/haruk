@@ -1,0 +1,21 @@
+{
+  "name": "devlinkstudios/wp-starter-plugin",
+  "description": "A lightweight, modular, and container-ready WordPress starter plugin.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "DevlinkStudios\\StarterPlugin\\": "core/"
+    }
+  },
+  "scripts": {
+    "rebrand": "php bin/rebrand.php"
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
